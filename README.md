@@ -1,6 +1,6 @@
 # MILTestTask - OCR
 
-Мы предлагаем обучить модель для решения задачи Layout Detection на нашем [датасете].(https://drive.google.com/file/d/1euOGyo8jzP-iJF_WMuwTtBzrRsvQ4h3c/view?usp=sharing)
+Мы предлагаем обучить модель для решения задачи Layout Detection на нашем [датасете](https://drive.google.com/file/d/1euOGyo8jzP-iJF_WMuwTtBzrRsvQ4h3c/view?usp=sharing).
 
 Результаты желательно оформить как jupyter ноутбук с метриками mean IoU для тестовой и трейновой частей.
 Код необходимый для получения результатов нужно приложить в форке этого репозитория.
