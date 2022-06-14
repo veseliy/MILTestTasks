@@ -1,5 +1,11 @@
 # MILTestTask - OCR
 
+## Result
+Ноутбук для оценки результата: [/notebooks/base_model.ipynb](https://github.com/veseliy/MILTestTasks/blob/task/OCR_doc_layout/notebooks/base_model.ipynb)
+
+## Задание
+
+
 Мы предлагаем обучить модель для решения задачи Layout Detection на нашем [датасете](https://drive.google.com/file/d/1euOGyo8jzP-iJF_WMuwTtBzrRsvQ4h3c/view?usp=sharing).  
 В архиве есть папка `data` с изображениями, и 2 json файла в [формате COCO для задачи detection](https://cocodataset.org/#format-data), c train и test частями соответственно. 
 Данные для сегментации приведены в формате полигонов.
