@@ -69,7 +69,7 @@ def transform(image, boxes, labels, split):
     new_boxes = boxes
     new_labels = labels
     # Skip the following operations for evaluation/testing
-    if split == 'TRAIN':
+    # if split == 'TRAIN':
         # A series of photometric distortions in random order, each with 50% chance of occurrence, as in Caffe repo
         # new_image = photometric_distort(new_image)
 
@@ -89,8 +89,8 @@ def transform(image, boxes, labels, split):
         # new_image = FT.to_pil_image(new_image)
 
         # Flip image with a 50% chance
-        if random.random() < 0.5:
-            new_image, new_boxes = flip(new_image, new_boxes)
+        # if random.random() < 0.5:
+        #     new_image, new_boxes = flip(new_image, new_boxes)
 
     # Resize image to (300, 300) - this also converts absolute boundary coordinates to their fractional form
     new_image, new_boxes = resize(new_image, new_boxes, dims=(300, 300))
